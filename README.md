@@ -26,13 +26,7 @@ we query the dbpedia endpoint with noisy_triple_retriever.py
 
 ELASTIC SEARCH STUFF
 
-
-
-
-query_elastic.py
-
-
-new_index_BBpedia.PY
+query_elastic.py and new_index_dBpedia.py
 
 
 
