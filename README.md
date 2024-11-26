@@ -14,7 +14,7 @@ get entities from refined model using refined_test_QALD.py 377 408 0.92401960784
 with the entities extracted, query the dbpedia endpoint to retrieve the one hop neighbourhood around each entity and store them
 we query the dbpedia endpoint with noisy_triple_retriever.py
 
-5. make the dataset of triples and their associated NLQ. Send each triple with the nlq through the cross encoder after training it to perform binary classification.
+5. make the dataset of triples and their associated NLQ with cross_encoder_data_maker.py. Send each triple with the nlq through the cross encoder after training it to perform binary classification. cross_encoder_deberta_xxxx_yyyy.py where xxxx is the mode of the model and yyyy is the dataset name
 
 6. reconnect each of the triples to their questions in the main dataset. rank based on cross encoder score and append to dataset. 
 
