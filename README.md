@@ -10,7 +10,7 @@ get the qald 9 train and test json dataset through preprocess.py or preprocess_o
 3.
 get entities from refined model using refined_test_QALD.py 377 408 0.9240196078431373 train and 140 150 0.9333333333333333 test have found at least one entity i think. although that entity may or may not be 'none' it will be "entites": [] in the data if refined didn't find an entity. 24 "None" in train and 10 in test. Not every example with a "None" has no other entities. Updated refine_test_QALD.py to remove the "None" in computation 367 408 0.8995098039215687 train and 135 150 0.9 in test updated
 
-4. noisy_triple_retriever.py in downloads gets the triples in a one hop neighbourhood
+4. noisy_triple_retriever.py gets the triples in a one hop neighbourhood
 with the entities extracted, query the dbpedia endpoint to retrieve the one hop neighbourhood around each entity and store them
 we query the dbpedia endpoint with noisy_triple_retriever.py
 
