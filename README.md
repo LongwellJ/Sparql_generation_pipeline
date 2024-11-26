@@ -1,7 +1,7 @@
 pipeline for dbpedia datasets:
 
 1.
-get new_answers in data from collab script that sends query to api and gets results (find this script) (redo this in a timely manner)
+get new_answers in data from collab script that sends query to api and gets results (redo this in a timely manner)
 Mahdiyar_ChatGPT_script.ipynb
 
 2.
